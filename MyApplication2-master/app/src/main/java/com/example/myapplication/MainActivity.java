@@ -49,6 +49,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        String sample1 = getText(R.string.sample1);
+
+        TextView Address = (TextView)findViewById(R.id.Address);
+        Address.setText(sample1);
+
+        String sample2 = getText(R.string.sample2);
+
+        TextView Call = (TextView)findViewById(R.id.Call);
+        Call.setText(sample1);
+
+        String sample3 = getText(R.string.sample3);
+
+        TextView Time = (TextView)findViewById(R.id.Time);
+        Call.setText(sample3);
+
     }
 
     @Override

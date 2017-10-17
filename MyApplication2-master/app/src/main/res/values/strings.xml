@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string name="sample1">주소</string>
+    <string name="sample2">023456789</string>
+    <string name="sample3">영업시간:09~21</string>
+
 </resources>
